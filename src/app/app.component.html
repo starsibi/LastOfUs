@@ -1,4 +1,10 @@
-<div class="container">
-  <app-loader></app-loader>
+<div class="container-fluid">
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <!-- <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+      Bootstrap --> Infostretch
+    </a>
+  </nav>
+  <app-loader *ngIf="showLoader"></app-loader>
   <router-outlet></router-outlet>
 </div>
