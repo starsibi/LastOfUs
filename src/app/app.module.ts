@@ -7,6 +7,7 @@ import { LoaderComponent } from './loader/loader.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { CreditsComponent } from './credits/credits.component';
+import { NgParticlesModule } from 'ng-particles';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CreditsComponent } from './credits/credits.component';
   imports: [
     HttpClientModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgParticlesModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
