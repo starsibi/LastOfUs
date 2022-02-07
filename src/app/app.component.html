@@ -1,17 +1,8 @@
 <div class="container-fluid">
-<ng-particles [id]="id" [options]="particlesOptions" (particlesLoaded)="particlesLoaded($event)"
-(particlesInit)="particlesInit($event)"></ng-particles>
-
+  <ng-particles [id]="id" [options]="particlesOptions" (particlesLoaded)="particlesLoaded($event)"
+    (particlesInit)="particlesInit($event)"></ng-particles>
   <app-navbar></app-navbar>
   <app-loader *ngIf="showLoader"></app-loader>
   <router-outlet></router-outlet>
-  <footer class="footer fixed-bottom bg-light">
-   
-  <div class="container text-center">    
-    <span class="pull-left">© Prithiviraj Ramalingam</span>
-    <a href="https://www.facebook.com/starsibi/"><i class="fa fa-facebook"></i></a>
-    <a href="https://www.linkedin.com/in/prithiviraj-r-928a7120/"><i class="fa fa-linkedin"></i></a>
-    <a href="https://github.com/starsibi"><i class="fa fa-github"></i></a>
-  </div>
-</footer>
+  <app-footer></app-footer>
 </div>

@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { CreditsComponent } from './credits/credits.component';
 import { NgParticlesModule } from 'ng-particles';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NgParticlesModule } from 'ng-particles';
     LoaderComponent,
     NavbarComponent,
     HomeComponent,
-    CreditsComponent
+    CreditsComponent,
+    FooterComponent
   ],
   imports: [
     HttpClientModule,
