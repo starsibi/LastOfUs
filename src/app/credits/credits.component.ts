@@ -19,7 +19,7 @@ export class CreditsComponent implements OnInit {
   }
 
   getData() {
-    this.responseFileReaderService.getJSON("../../assets/data/credits.json").subscribe(data => {
+    this.responseFileReaderService.getJSON("assets/data/credits.json").subscribe(data => {
       this.credits = data;
     })
   }
