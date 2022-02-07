@@ -15,7 +15,7 @@ export class CreditsComponent implements OnInit {
     this.getData();
     window.setInterval(function() {
       window.scrollBy(0,10);
-    }, 1);
+    },2);
   }
 
   getData() {

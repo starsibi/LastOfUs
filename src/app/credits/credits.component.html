@@ -5,8 +5,9 @@
     <div class="container">
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
             <main class="px-3 project-section" *ngFor="let credit of credits">
-                <h1>{{credit.Project}}</h1>
-                <p class="lead" >{{credit.Employees.join(", ")}}</p>           
+                <h1 class="project-title">{{credit.Project}}</h1>
+                <!-- <p class="lead" >{{credit.Employees.join(", ")}}</p>            -->
+                <p class="lead" *ngFor="let employee of credit.Employees" >{{employee}}</p>     
             </main>
         </div>
     </div>
