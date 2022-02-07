@@ -12,7 +12,8 @@ export class LoaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  words:string[] = ["PRITHIVI", "UI DEVELOPER", "CAMERA", "PHOTOGRAPHY", "WEBSITE", "CSS", "HTML", "JAVASCRIPT", "JQUERY", "ANGULAR", "FRONTEND", "GIGYA", "BOOTSTRAP"];
+
+  words:string[] =["UI DEVELOPER","CV TOOL", "PF CHANG'S", "GIGYA", "SITEFINITY","CRM","TFWWI","FULL STACK DEVELOPER", "HTML","CSS","JQUERY","ANGULARJS","AZURE","SOLID","TDD","AZURE FUNCTIONS","WEB API","CI CD","SAGGEZZA","INFOSTRETCH","PHOTOGRAPHY","HTML","CSS","JAVASCRIPT","DELTA","ALPHA","CONNECT" ] 
 
     //function for generating random value.
      getRandomInt(min:number, max:number) {
