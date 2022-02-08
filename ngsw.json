@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1644293738305,
+  "timestamp": 1644296466080,
   "index": "https://starsibi.github.io/LastOfUs/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://starsibi.github.io/LastOfUs/favicon.ico",
         "https://starsibi.github.io/LastOfUs/index.html",
-        "https://starsibi.github.io/LastOfUs/main.e1741dc7e65736d1.js",
+        "https://starsibi.github.io/LastOfUs/main.b1682fd468eba0e3.js",
         "https://starsibi.github.io/LastOfUs/manifest.webmanifest",
         "https://starsibi.github.io/LastOfUs/polyfills.bd67167395b06c07.js",
         "https://starsibi.github.io/LastOfUs/runtime.992ab2d3fe3ffe9a.js",
@@ -59,8 +59,8 @@
     "https://starsibi.github.io/LastOfUs/assets/icons/icon-96x96.png": "6ee36b9a30297679c647edb583f14f2daba81110",
     "https://starsibi.github.io/LastOfUs/assets/images/app-logo.jpg": "c00e42e921d88f33f47a4f0ed0d35c57e939ba4a",
     "https://starsibi.github.io/LastOfUs/favicon.ico": "835cd01ede9a84d0887eaf31a3f9c421f47e73c5",
-    "https://starsibi.github.io/LastOfUs/index.html": "389647b3a4efee7cf8d1f55f944fc246c92524a3",
-    "https://starsibi.github.io/LastOfUs/main.e1741dc7e65736d1.js": "96f46e3afecc43f848c584b06f0f105a82da5456",
+    "https://starsibi.github.io/LastOfUs/index.html": "3151ae35a47a059beea9237a009a90350c6b792a",
+    "https://starsibi.github.io/LastOfUs/main.b1682fd468eba0e3.js": "4a23e5ff5f66be6056e55b19fb6283c1f6fdeafa",
     "https://starsibi.github.io/LastOfUs/manifest.webmanifest": "1abd16fac0c6c8b66ed84bb50e6400fb0d222221",
     "https://starsibi.github.io/LastOfUs/polyfills.bd67167395b06c07.js": "362ae92da9e027a36848ce8531ee47b2023e9caa",
     "https://starsibi.github.io/LastOfUs/runtime.992ab2d3fe3ffe9a.js": "62af7a78be3bac5e49f9a5a3586ae15fb08f2a13",
