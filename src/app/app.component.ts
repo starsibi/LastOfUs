@@ -100,8 +100,6 @@ export class AppComponent {
  init() {
   setTimeout(() => {
     this.showLoader = false;
-  }, 9000); 
-
-  
+  }, 10000);   
  }
 }
