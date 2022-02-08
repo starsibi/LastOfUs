@@ -11,6 +11,7 @@ import { NgParticlesModule } from 'ng-particles';
 import { FooterComponent } from './footer/footer.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { AppHorizontalScrollDirective } from './app-horizontal-scroll.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { environment } from '../environments/environment';
     NavbarComponent,
     HomeComponent,
     CreditsComponent,
-    FooterComponent
+    FooterComponent,
+    AppHorizontalScrollDirective
   ],
   imports: [
     HttpClientModule,

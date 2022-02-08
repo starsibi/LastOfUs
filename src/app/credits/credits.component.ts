@@ -38,11 +38,15 @@ export class CreditsComponent implements OnInit {
   scrollToBottom(position: number): void {
     try {
       console.log(position)
-      this.myScrollContainer.nativeElement.scrollTop = position;     
+      this.myScrollContainer.nativeElement.scrollTop = position;         
     } catch (err) {}
   }
 
   scrollHandler() {  
+    this.subscription.unsubscribe();
+  }
+
+  userScroll(){
     this.subscription.unsubscribe();
   }
   getData() {
