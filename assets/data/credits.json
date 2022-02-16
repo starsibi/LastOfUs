@@ -165,10 +165,17 @@
           "Poornima Bs",
           "Saravanan Yuvaraj",
           "Akanksha Goyal",
-          "Sowmiya Halangunaki",
+          "Soumya Halangunaki",
           "Shabana Praveen",
           "Preeth P T"
       ]
+  },
+  {
+    "Project": "IT Team",
+    "Employees":[
+        "Karthi Gnanam",
+        "Mahesh Mallikarjuna"
+    ]
   },
   {
       "Project":"Admin",
