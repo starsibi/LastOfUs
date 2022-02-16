@@ -12,6 +12,7 @@ export class AppHorizontalScrollDirective {
 
 
   @HostListener("wheel",["$event"])
+  @HostListener("touch",["$event"])
   public onScroll(event:WheelEvent){
   this.wheelScroll.emit("scrolled");
   }
