@@ -10,6 +10,7 @@ import { interval, Subscription } from 'rxjs';
 })
 export class CreditsComponent implements OnInit {
   credits: Credits[] = [];
+  showThanks:boolean = false;
 
   @ViewChild('scrollMe')
   private myScrollContainer!: ElementRef;
@@ -30,8 +31,8 @@ export class CreditsComponent implements OnInit {
       const source = interval(1);
       this.subscription = source.subscribe(val => this.scrollToBottom(this.position += .5));
     } else {
-      const source = interval(4);
-      this.subscription = source.subscribe(val => this.scrollToBottom(this.position += 4));
+      const source = interval(1);
+      this.subscription = source.subscribe(val => this.scrollToBottom(this.position += .8));
     }
   }
 
@@ -52,6 +53,7 @@ export class CreditsComponent implements OnInit {
   getData() {
     this.responseFileReaderService.getJSON("assets/data/credits.json").subscribe(data => {
       this.credits = data;
+      this.showThanks = true;
     })
   }
 

@@ -171,6 +171,13 @@
       ]
   },
   {
+    "Project": "IT Team",
+    "Employees":[
+        "Karthi Gnanam",
+        "Mahesh Mallikarjuna"
+    ]
+  },
+  {
       "Project":"Admin",
       "Employees":[
           "Simi Joy"
